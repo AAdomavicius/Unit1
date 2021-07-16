@@ -179,3 +179,22 @@ document.querySelector('.b-9').addEventListener('click', f9);
 document.querySelector('.b-10').addEventListener('click', ()=>{
     document.querySelector('.out-10').innerHTML = f10(a10, 8);
 });
+
+
+document.querySelector('.b-2').addEventListener('click', f2);
+document.querySelector('.b-3').addEventListener('click', f3);
+document.querySelector('.b-4').addEventListener('click', ()=>{
+    f4(a4, '2'); // изучите какой индекс вывело. Разберитесь почему
+   // f4(a4, 2); // изучите какой индекс вывело. Разберитесь почему
+});
+document.querySelector('.b-5').addEventListener('click', f5);
+document.querySelector('.b-6').addEventListener('click', f6);
+document.querySelector('.b-7').addEventListener('click', ()=>{
+    let num = +document.querySelector('.i-7').value;
+    f7(a7, num);
+});
+document.querySelector('.b-8').addEventListener('click', f8);
+document.querySelector('.b-9').addEventListener('click', f9);
+document.querySelector('.b-10').addEventListener('click', ()=>{
+    document.querySelector('.out-10').innerHTML = f10(a10, 8);
+});
