@@ -163,7 +163,7 @@ const f10 = (arr, elem) => {
 
 
 document.querySelector('.b-2').addEventListener('click', f2);
-document.querySelector('.b-3').addEventListener('click', f3);
+
 document.querySelector('.b-4').addEventListener('click', ()=>{
     f4(a4, '2'); // изучите какой индекс вывело. Разберитесь почему
    // f4(a4, 2); // изучите какой индекс вывело. Разберитесь почему
